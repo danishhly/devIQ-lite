@@ -7,6 +7,10 @@ export default function RootLayout({ children }) {
         <nav className="p-4 bg-white shadow">InsightIQ Lite</nav>
         <main className="p-6">{children}</main>
       </body>
+      <footer className="p-4 text-center text-sm text-gray-500">
+  © 2025 InsightIQ Lite
+</footer>
+
     </html>
   );
 }
