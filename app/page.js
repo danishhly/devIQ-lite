@@ -9,4 +9,9 @@ export default function Page() {
         <ChartPlaceholder />
     </>
   );
+  
 }
+export default function Home() {
+  return <h1>Productivity Dashboard</h1>;
+}
+
