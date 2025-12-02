@@ -1,4 +1,6 @@
 export const metadata = { title: "InsightIQ Lite" };
+import Footer from "@/components/layout/Footer";
+
 
 export default function RootLayout({ children }) {
   return (
@@ -7,6 +9,7 @@ export default function RootLayout({ children }) {
         <nav className="p-4 bg-white shadow">InsightIQ Lite</nav>
         <main className="p-6">{children}</main>
           <body>{children}</body>
+          <Footer />
       </body>
       <footer className="p-4 text-center text-sm text-gray-500">
   © 2025 InsightIQ Lite
