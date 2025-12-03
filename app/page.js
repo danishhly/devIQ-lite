@@ -4,6 +4,9 @@ import ChartPlaceholder from "../components/ChartPlaceholder";
 export default function Page() {
   return (
     <>
+     <div>
+      <SectionHeader title="Welcome to DevDaily" />
+    </div>
       <h1 className="text-2xl font-bold mb-4">Dashboard</h1>
       <Stats />
         <ChartPlaceholder />
