@@ -11,6 +11,7 @@ export default function RootLayout({ children }) {
           <body>{children}</body>
           <Footer />
       </body>
+      <div className="container">{children}</div>
       <footer className="p-4 text-center text-sm text-gray-500">
   © 2025 InsightIQ Lite
 </footer>
