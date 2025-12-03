@@ -1,3 +1,2 @@
-export function formatDate(d) {
-  return new Date(d).toLocaleString();
-}
+export const formatDate = (date: Date) =>
+  date.toISOString().split("T")[0];
