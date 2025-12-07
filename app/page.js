@@ -1,6 +1,6 @@
 import Stats from "../components/Stats";
 import ChartPlaceholder from "../components/ChartPlaceholder";
-import sectionHeader from "../components/SectionHeader";
+import sectionHeader from "../components/SectionTitletsx";
 
 export default function Page() {
   return (
