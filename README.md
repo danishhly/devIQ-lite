@@ -22,3 +22,8 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Update
 Added UI components, helpers, counters, footer, and basic API route for delete functionality.
+
+features:
+- Added UI components (Button, Card)
+- Added utilities (formatDate, randomId)
+- Added hooks, layout files
