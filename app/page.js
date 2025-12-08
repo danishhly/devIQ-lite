@@ -3,6 +3,7 @@ import ChartPlaceholder from "../components/ChartPlaceholder";
 import SectionHeader from "../components/SectionTitle.tsx";
 import Button from "@/components/ui/Button";
 import Card from "@/components/ui/Card";
+import TodoList from "../components/TodoList";
 
 export default function Page() {
   return (
@@ -17,6 +18,10 @@ export default function Page() {
       <h2 className="text-lg font-semibold mb-2">Welcome</h2>
       <Button>Get Started</Button>
     </Card>
+     <div className="space-y-4">
+      <h1 className="text-2xl font-bold"> Today's Tasks</h1>
+      <TodoList />
+    </div>
     </>
   );
   
