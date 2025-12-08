@@ -27,3 +27,10 @@ features:
 - Added UI components (Button, Card)
 - Added utilities (formatDate, randomId)
 - Added hooks, layout files
+
+## New Components and Utilities Added
+- SectionTitle component
+- ProgressBar component
+- calcProgress utility
+- sampleTodos data file
+
