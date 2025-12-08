@@ -1,21 +1,14 @@
-export const metadata = { title: "InsightIQ Lite" };
-import Footer from "@/components/layout/Footer";
-
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-gray-50 text-gray-800">
-        <nav className="p-4 bg-white shadow">InsightIQ Lite</nav>
-        <main className="p-6">{children}</main>
-          <body>{children}</body>
-          <Footer />
+      <body className="min-h-screen flex flex-col">
+        <Header />
+        <main className="flex-1 p-4">{children}</main>
+        <Footer />
       </body>
-      <div className="container">{children}</div>
-      <footer className="p-4 text-center text-sm text-gray-500">
-  © 2025 InsightIQ Lite
-</footer>
-
     </html>
   );
 }
