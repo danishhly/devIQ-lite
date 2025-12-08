@@ -31,7 +31,7 @@
     "**/*.mts",
     "app/layout.js",
     "app/page.js",
-    "components/SectionTitletsx"
+    "components/SectionTitle.tsx"
   ],
   "exclude": ["node_modules"]
 }

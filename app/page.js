@@ -1,6 +1,6 @@
 import Stats from "../components/Stats";
 import ChartPlaceholder from "../components/ChartPlaceholder";
-import SectionHeader from "../components/SectionTitletsx";
+import SectionHeader from "../components/SectionTitle.tsx";
 import Button from "@/components/ui/Button";
 import Card from "@/components/ui/Card";
 
