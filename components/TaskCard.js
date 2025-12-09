@@ -1,3 +1,3 @@
 export default function TaskCard({ title }) {
-  return <div style={{ padding: 10, border: "1px solid #aaa" }}>{title}</div>;
+  return <div className="p-3 border border-gray-400 rounded-md">{title}</div>;
 }
