@@ -1,6 +1,6 @@
 import Stats from "../components/Stats";
 // Fix typo in import: ChartPlaceholder (was ChartPlaceHolder)
-import ChartPlaceholder from "../components/ChartPlaceHolder"; 
+import ChartPlaceholder from "../components/ChartPlaceholder"; 
 import SectionHeader from "../components/SectionTitle"; // Extension .tsx removed for cleaner import
 // Button is located in components/Buttons.js, not components/ui/Button
 import Button from "../components/ui/Buttons"; 
