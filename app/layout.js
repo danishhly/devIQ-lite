@@ -1,6 +1,10 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
+export const metadata = {
+  title: "DevIQ Lite",
+  description: "Productivity Dashboard for Developers",
+};
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
