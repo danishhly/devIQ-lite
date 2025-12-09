@@ -3,7 +3,7 @@ import Stats from "../components/Stats";
 import ChartPlaceholder from "../components/ChartPlaceHolder"; 
 import SectionHeader from "../components/SectionTitle"; // Extension .tsx removed for cleaner import
 // Button is located in components/Buttons.js, not components/ui/Button
-import Button from "../components/Buttons"; 
+import Button from "../components/ui/Buttons"; 
 import Card from "@/components/ui/Card";
 importyb TodoList from "../components/TodoList";
 
