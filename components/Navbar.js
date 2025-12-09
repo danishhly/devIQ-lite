@@ -1,9 +1,13 @@
+import Link from "next/link"; // Add import
+
 export default function Navbar() {
   return (
-    <nav style={{ padding: 20, borderBottom: "1px solid #ddd" }}>
-      <a href="/">Home</a> | <a href="/tasks">Tasks</a> | <a href="/notes">Notes</a> | <a href="/habits">Habits</a>
+    <nav className="p-5 border-b border-gray-200 flex gap-4">
+      <Link href="/">Home</Link>
+      <Link href="/tasks">Tasks</Link>
+      <Link href="/notes">Notes</Link>
+      <Link href="/habits">Habits</Link>
       <Link href="/utilities">Utilities</Link>
-
     </nav>
   );
 }
