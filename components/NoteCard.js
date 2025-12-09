@@ -1,3 +1,3 @@
 export default function NoteCard({ text }) {
-  return <div style={{ padding: 10, border: "1px solid green" }}>{text}</div>;
+  return <div className="p-3 border border-green-500 rounded-md bg-green-50">{text}</div>;
 }
