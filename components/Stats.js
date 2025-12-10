@@ -3,10 +3,10 @@ import Card from "./Card";
 export default function Stats() {
   return (
     <Card title="Overview">
-      <ul>
-        <li>Users: 12</li>
-        <li>Projects: 4</li>
-        <li>Events: 245</li>
+      <ul className="grid grid-cols-3 gap-4 text-center">
+        <li className="p-2 bg-blue-50 rounded"><span className="block text-2xl font-bold text-blue-600">12</span> Users</li>
+        <li className="p-2 bg-green-50 rounded"><span className="block text-2xl font-bold text-green-600">4</span> Projects</li>
+        <li className="p-2 bg-orange-50 rounded"><span className="block text-2xl font-bold text-orange-600">245</span> Events</li>
       </ul>
     </Card>
   );
