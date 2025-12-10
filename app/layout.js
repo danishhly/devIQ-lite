@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 export const metadata = {
-  title: "DevIQ Lite",
+  title: "devIQ Lite - Productivity Dashboard",
   description: "Productivity Dashboard for Developers",
 };
 export default function RootLayout({ children }) {
