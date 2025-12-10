@@ -1,3 +1,6 @@
+import { NextResponse } from "next/server";
+import { sampleUsers } from "@/data/sample-users";
+
 export function GET() {
-  return Response.json({ msg: "Users endpoint coming soon" });
+  return NextResponse.json(sampleUsers);
 }
