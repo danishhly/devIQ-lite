@@ -5,11 +5,17 @@ import SectionHeader from "../components/SectionTitle"; // Extension .tsx remove
 // Button is located in components/Buttons.js, not components/ui/Button
 import Button from "../components/ui/Buttons"; 
 import Card from "@/components/ui/Card";
-importyb TodoList from "../components/TodoList";
+import TodoList from "../components/TodoList";
+import Container from "@/components/ui/Container";
 
 export default function Page() {
   return (
     <>
+    <Container>
+     <div>
+      <SectionHeader title="Welcome to DevDaily" />
+    </div>
+      <h1 className="text-2xl font-bold mb-4">Dashboard</h1>
      <div>
       <SectionHeader title="Welcome to DevDaily" />
     </div>
@@ -24,6 +30,7 @@ export default function Page() {
       <h1 className="text-2xl font-bold"> Today's Tasks</h1>
       <TodoList />
     </div>
+    </Container>
     </>
   );
 }
