@@ -4,19 +4,18 @@ import TodoItem from "./TodoItem";
 
 export default function TodoList() {
   const [todos, setTodos] = useState([]);
-  const [loading, setLoading] = useState(true); // Add state
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetch("/api/todo")
       .then((res) => res.json())
       .then((data) => {
         setTodos(data);
-        setLoading(false); // Update state
+        setLoading(false);
       });
   }, []);
 
-  if (loading) return <p className="text-gray-500">Loading tasks...</p>;
-
+  if (loading) return <div className="p-4 text-gray-500 animate-pulse">Loading tasks...</div>;
   return (
     <div className="border rounded-md p-4">
       {todos.map((t) => (
