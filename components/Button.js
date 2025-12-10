@@ -5,3 +5,6 @@ const buttonStyles = {
 export default function Button({ children, variant = "primary" }) {
   return <button className={buttonStyles[variant]}>{children}</button>;
 }
+export default function Button({ children, variant = "primary" }) {
+  return <button className={buttonStyles[variant]}>{children}</button>;
+}
