@@ -34,3 +34,9 @@ features:
 - calcProgress utility
 - sampleTodos data file
 
+## New Features
+- Full task management (CRUD)
+- Notes and Habits tracking
+- Responsive UI with Tailwind CSS
+- Real-time productivity stats
+
